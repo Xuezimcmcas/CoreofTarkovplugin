@@ -1,0 +1,2 @@
+# CoreofTarkovplugin
+Minecraft塔科夫核心机制插件开源
