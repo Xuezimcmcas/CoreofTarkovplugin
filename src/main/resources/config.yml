@@ -1,0 +1,47 @@
+# This plugin has been created by Bosternike (Discord: Bosternike#7428).
+#
+# Command permission (/escape) - escape.command.use
+
+MySql:
+  host: 'localhost'
+  port: 3306
+  user: ''
+  password: ''
+  database: ''
+
+Settings:
+  NoPlayersAfter:
+    time: 60
+    denyMessage:
+    - '&cDeny'
+  # Game time in seconds.
+  GameTime: 1200
+  # How much time player must stay at the escape area?
+  WaitToEscape: 20
+  World: 'world'
+  Regions:
+    example:
+      world: 'world'
+      escapename: 'example'
+      region: 'region_name'
+  SendTo: 'hub'
+  TimeFormat:
+    Minutes: '&d%minutes%&7.&d%seconds%'
+    Seconds: '&d%seconds%'
+  BossBar: '&f&l撤离剩余时间: &a%time%'
+  EnterSound: ''
+
+Messages:
+  noPermission: "&c你么得权限."
+  reload: '&a插件重新加载了.'
+  escapeAreaEntered: "&a你进入了撤离点,等待撤离"
+  escapeAreaLeft: "&c你离开了撤离点,请小心"
+  help:
+  - '&f 插件重新加载 &7- &d/escape reload &7(它将自动结束当前游戏)'
+  - '&f 开始游戏 &7- &d/escape start'
+  - '&f 结束游戏 &7- &d/escape stop'
+  started: '&a游戏开始了!'
+  ended: '&f游戏结束了!'
+
+
+      

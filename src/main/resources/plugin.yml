@@ -1,0 +1,7 @@
+name: EscapeFromTarkov
+main: net.boster.escape.from.tarkov.EscapeFromTarkov
+author: Bosternike
+version: 1.0.0
+softdepend: [PlaceholderAPI, WorldGuard]
+commands:
+  escape:
